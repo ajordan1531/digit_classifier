@@ -12,7 +12,7 @@ MODEL_PATH = "digit_model.joblib"
 #   1.0   -> trained on MNIST divided by 255
 #   16.0  -> trained on sklearn's built-in load_digits (8x8, values 0-16)
 # Leave as None to guess from the model's input size (64 features -> 16, else 255).
-PIXEL_MAX = None
+PIXEL_MAX = 1.0
 # ---------------------------------------------------------------------------
 
 st.set_page_config(page_title="Digit Classifier", page_icon="✏️")
