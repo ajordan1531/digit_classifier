@@ -1,7 +1,0 @@
-streamlit>=1.53
-streamlit-drawable-canvas[image]==0.10.0
-numpy
-pillow
-joblib
-# Pin this to the version you trained/saved the model with (see `pip show scikit-learn`):
-scikit-learn==1.5.2
