@@ -4,4 +4,4 @@ numpy
 pillow
 joblib
 # Pin this to the version you trained/saved the model with (see `pip show scikit-learn`):
-scikit-learn==1.5.2
+scikit-learn==1.6.1
